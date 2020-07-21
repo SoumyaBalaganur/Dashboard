@@ -1,0 +1,45 @@
+<nav>
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item">Home </li>
+        <li class="breadcrumb-item Active">Dashboard</li>
+    </ol>
+</nav>
+<h5>Dashboard</h5>
+<div class="row">
+<div class="col-lg-3">
+    <div class="row">
+        <div class="col-11 text-white text-center mx-auto rounded pt-2 pb-2 font-weight-bold"
+        style="background-color:#a39e9e; font-family:  'Arial Narrow Bold', sans-serif">
+        {{ Desiganation }} 
+        </div>
+        <div class="col-12 text-center mt-2"> 
+            <img src="assets/Person.png" width="120">
+        </div>
+        <div class="col-12 text-center mx-auto rounded pt-2 font-weight-bold">
+            {{ Username}}
+        </div>
+        <div class="col-12 text-center"> Team Summary</div>
+        <div class="col-12 mb-3">
+            <ul class="list-group">
+                <li class="list-group-item d-flex justify-content-between align-items-center"> No of Team Members
+                    <span class="badge badage-secondary badage-pill" style="font-size: 13px;"> {{NoofTeamMember}}</span></li>
+                <li class="list-group-item d-flex justify-content-between align-items-center"> Total Cost Of all project
+                    <span class="badge badage-secondary badage-pill" style="font-size: 13px;"> {{TotalCostofAllProject}}</span></li>
+                <li class="list-group-item d-flex justify-content-between align-items-center"> Pending Tasks
+                    <span class="badge badage-secondary badage-pill" style="font-size: 13px;"> {{PendingTasks}}</span></li>    
+                <li class="list-group-item d-flex justify-content-between align-items-center"> Upcoming Project
+                    <span class="badge badage-secondary badage-pill" style="font-size: 13px;"> {{UpcomingProject}}</span></li>    
+            </ul>
+        </div>
+        <div class="col-12 text-center" style="font-family:'Arial Narrow'"> CLIENTS</div>
+        <div class="col-12">
+            {{Clients}}
+        </div>
+
+   </div>
+</div>
+
+<div class="col-lg-6">Box2</div>
+
+<div class="col-lg-3">Box3</div>
+</div>
